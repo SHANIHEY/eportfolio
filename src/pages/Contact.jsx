@@ -4,8 +4,7 @@ import {
   FaPhone, 
   FaMapMarkerAlt, 
   FaGithub, 
-  FaLinkedin, 
-  FaTwitter 
+  FaLinkedin
 } from 'react-icons/fa';
 import '../styles/Contact.css';
 
@@ -212,14 +211,11 @@ const Contact = () => {
               <div className="contact-social">
                 <h3>Follow Me</h3>
                 <div className="social-links">
-                  <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                  <a href="https://github.com/SHANIHEY" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                     <FaGithub />
                   </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <a href="https://www.linkedin.com/in/shane-khirzten-agor-099093393/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                     <FaLinkedin />
-                  </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                    <FaTwitter />
                   </a>
                 </div>
               </div>

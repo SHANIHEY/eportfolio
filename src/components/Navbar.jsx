@@ -32,8 +32,8 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
-        <Link to="/" className="navbar-logo" onClick={closeMenu}>
-          <span>Shane Khirzten Agor</span>
+        <Link to="/profile" className="navbar-logo" onClick={closeMenu}>
+          <span>Shane Khirzten M. Agor</span>
         </Link>
         
         <div className={`navbar-menu ${isOpen ? 'active' : ''}`}>

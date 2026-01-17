@@ -64,7 +64,7 @@ const Home = () => {
         <div className="container">
           <div className="hero-content">
             <h1 className="hero-title">
-              Hi, I'm <span className="hero-name">Shane Khirzten Agor</span>
+              Hi, I'm <span className="hero-name">Shane Khirzten M. Agor</span>
             </h1>
             <p className="hero-subtitle">
               UI/UX Designer & Front-End Developer

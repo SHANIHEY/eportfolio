@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import '../styles/Footer.css';
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3 className="footer-title">Shane Khirzten Agor</h3>
+            <h3 className="footer-title">Shane Khirzten M. Agor</h3>
             <p className="footer-description">
               A professional portfolio showcasing UI/UX and front-end work by Shane Khirzten Agor.
             </p>
@@ -30,14 +30,11 @@ const Footer = () => {
           <div className="footer-section">
             <h4 className="footer-heading">Connect</h4>
             <div className="footer-social">
-              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <a href="https://github.com/SHANIHEY" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <FaGithub />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/shane-khirzten-agor-099093393/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <FaLinkedin />
-              </a>
-              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                <FaTwitter />
               </a>
               <a href="mailto:agorshane3@gmail.com" aria-label="Email">
                 <FaEnvelope />
