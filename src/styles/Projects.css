@@ -1,0 +1,31 @@
+.projects-page {
+  min-height: 100vh;
+}
+
+.projects-section {
+  background-color: var(--light-color);
+  padding-top: 40px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-section {
+    padding-top: 20px;
+  }
+
+  .projects-grid {
+    gap: 20px;
+  }
+}
+
